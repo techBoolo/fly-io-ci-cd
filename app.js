@@ -10,4 +10,12 @@ app.post('/', (req, res) => {
   res.status(201).json({ message: 'post request' })
 })
 
+app.put('/', (req, res) => {
+  res.status(201).json({ message: 'put request' })
+})
+
+app.delete('/', (req, res) => {
+  res.status(201).json({ message: 'delete request' })
+})
+
 export default app
